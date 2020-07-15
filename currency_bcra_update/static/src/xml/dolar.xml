@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates>
+    <t t-name="BcraBadge">
+        <li class="o_mail_systray_item o_no_notification">
+            <a style="width: 120px; word-wrap: break-word; line-height: inherit;" id="dolar-badge"/>
+        </li>
+    </t>
+</templates>

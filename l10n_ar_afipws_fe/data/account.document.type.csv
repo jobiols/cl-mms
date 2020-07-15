@@ -1,0 +1,15 @@
+id,sequence,code,name,document_letter_id/id,report_name,internal_type,doc_code_prefix
+dc_a_f,10,1,FACTURAS A,dl_a,FACTURA,invoice,FA-A 
+dc_a_nd,20,2,NOTAS DE DEBITO A,dl_a,NOTA DE DEBITO,debit_note,ND-A 
+dc_a_nc,30,3,NOTAS DE CREDITO A,dl_a,NOTA DE CREDITO,credit_note,NC-A 
+dc_a_r,40,4,RECIBOS A,dl_a,RECIBO,receipt_invoice,RE-A 
+dc_a_nvc,50,5,NOTAS DE VENTA AL CONTADO A,dl_a,,,
+dc_b_f,60,6,FACTURAS B,dl_b,FACTURA,invoice,FA-B 
+dc_b_nd,70,7,NOTAS DE DEBITO B,dl_b,NOTA DE DEBITO,debit_note,ND-B 
+dc_b_nc,80,8,NOTAS DE CREDITO B,dl_b,NOTA DE CREDITO,credit_note,NC-B 
+dc_b_r,90,9,RECIBOS B,dl_b,,receipt_invoice,RE-B 
+dc_b_nvc,100,10,NOTAS DE VENTA AL CONTADO B,dl_b,,,
+dc_c_f,110,11,FACTURAS C,dl_c,FACTURA,invoice,FA-C 
+dc_c_nd,120,12,NOTAS DE DEBITO C,dl_c,NOTA DE DEBITO,debit_note,ND-C 
+dc_c_nc,130,13,NOTAS DE CREDITO C,dl_c,NOTA DE CREDITO,credit_note,NC-C 
+

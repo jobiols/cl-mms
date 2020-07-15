@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="factura_electronica_res_company" model="ir.ui.view">
+        <field name="name">factura_electronica_res_company</field>
+        <field name="model">res.company</field>
+        <field name="inherit_id" ref="base.view_company_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//page[1]" position="after">
+                <page string="Factura Electrónica">
+                    <group>
+                        <group string="AFIP" priority="1">
+                            <field name="nro_iibb"/>
+                            <field name="fecha_inicio_actividades"/>
+                        </group>
+                        <group string="Estado" priority="2">
+                            <field name="es_proveedor_estado"/>
+                            <field name="proveedor_estado" attrs="{'invisible': [('es_proveedor_estado', '=', False)]}"/>
+                        </group>
+                    </group>
+                </page>
+                <page string="Registro de Firmas">
+                    <group>
+                        <field name="firma_presidente"/>
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+</odoo>

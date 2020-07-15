@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="factura_electronica_sale_order" model="ir.ui.view">
+        <field name="name">factura_electronica_sale_order</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='expected_date']" position="before">
+                <field name="tiempo_entrega"/>
+            </xpath>
+             <field name="partner_id" position="after">
+                <field name="expediente_estado"/>
+            </field>
+
+        </field>
+    </record>
+</odoo>
