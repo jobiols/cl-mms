@@ -60,7 +60,6 @@
     'docker-images': [
         'odoo jobiols/odoo-jeo:12.0',
         'postgres postgres:10.1-alpine',
-        'nginx nginx'
     ]
 
 }
