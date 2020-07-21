@@ -78,7 +78,9 @@
         'https://github.com/oca/management-system.git',
         'https://github.com/oca/sale-workflow.git',
         'https://github.com/oca/stock-logistics-warehouse.git',
-        'https://github.com/oca/stock-logistics-workflow.git'
+        'https://github.com/oca/stock-logistics-workflow.git',
+        'https://github.com/OCA/field-service.git',
+        'https://github.com/OCA/contract.git'
     ],
 
     # list of images to use in the form 'name image-url'
